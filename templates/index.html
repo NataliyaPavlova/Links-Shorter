@@ -1,0 +1,16 @@
+{% block title %}
+    Link Shorter
+{% endblock %}
+
+{% block main %}
+<body>
+    <form action="/" method="post">
+        <div> Please input long URL </div>
+        <div>
+            <input autocomplete="off" autofocus name="long_url" placeholder="Long URL" type="text"/>
+        </div>
+
+        <button type="submit"> Submit </button>
+    </form>
+</body>
+{% endblock %}
